@@ -13,10 +13,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 1.8 - muon jdk cua ben My
+    - name: Set up JDK 1.8.0_202 - muon jdk cua ben My
       uses: actions/setup-java@v3
       with:
-        java-version: '1.8'
+        java-version: '1.8.0_202'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - dong goi file .jar
